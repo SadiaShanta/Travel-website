@@ -14,6 +14,15 @@
         // change for the button element
         border:none;
         cursor: pointer;
+
+        @include respond(tab-port){
+            // display: block;
+            // margin: 0 auto;
+            // width: 40%;
+            text-align: center;
+        }
+
+
     }
     &:hover{
         transform: translateY(-.3rem);
